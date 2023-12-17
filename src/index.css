@@ -1,0 +1,35 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  font-family: 'Clash Display', sans-serif;
+}
+h1{
+    font-family: 'Clash Display', sans-serif;
+}
+a:hover{
+  cursor: pointer;
+}
+
+
+.text-primary{
+  color:#F55;
+}
+
+.pattern{
+  background: url('./assets/images/pattern.png');
+  background-color: #F55;
+  background-size: cover;
+}
+.pattern-2{
+  background: url('./assets/images/pattern2.png');
+  background-color: #F55;
+  background-size: cover;
+}
+
+.bg-primary{
+    background-color: #F55;
+}
